@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  backend: #nombre del contenedor
+    build: ./app
+    ports:
+      - "5000:5000"
